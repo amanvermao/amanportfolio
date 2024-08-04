@@ -16,7 +16,7 @@ function App() {
     // Simulate a loading period with a timeout
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the timeout as needed
+    }, 4000); // Adjust the timeout as needed
 
     return () => clearTimeout(timer);
   }, []);
