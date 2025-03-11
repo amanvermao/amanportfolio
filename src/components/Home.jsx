@@ -10,6 +10,7 @@ const Home = () => {
     const openResume = () => {
         window.open(resume);
       };
+      
     
       const navigateTo = (url) => {
         window.location.href = url;

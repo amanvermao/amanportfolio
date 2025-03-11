@@ -15,15 +15,20 @@ const Experience = () => {
           { name: "HTML", level: "Experienced" },
           { name: "CSS", level: "Experienced" },
           { name: "JavaScript", level: "Intermediate" },
-          { name: "React JS", level: "Intermediate" },
           { name: "Bootstrap", level: "Intermediate" },
-          { name: "Material UI", level: "Intermediate" },
+          { name: "React JS", level: "Intermediate" },
+          { name: "Redux", level: "Intermediate" },
+          { name: "Tailwind CSS", level: "Intermediate" },
+          { name: "MUI", level: "Intermediate" },
+      
         ],
         backend: [
           { name: "Node JS", level: "Intermediate" },
           { name: "Express JS", level: "Intermediate" },
           { name: "Mongo DB", level: "Intermediate" },
           { name: "API", level: "Intermediate" },
+          { name: "CMS", level: "Intermediate" },
+          { name: "Firebase", level: "Intermediate" },
         ],
       };
       

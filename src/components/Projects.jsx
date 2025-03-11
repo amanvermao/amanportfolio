@@ -9,6 +9,8 @@ import addtocart from '../assets/addtocart.webp'
 import article from '../assets/article.webp'
 import crypto from '../assets/crypto.webp'
 import gym from '../assets/gym.webp'
+import resumebuilder from '../assets/resumebuilder.webp'
+
 
 
 
@@ -24,19 +26,21 @@ const Projects = () => {
       <div className="details-container color-container">
         <div className="article-container">
           <img
-            src={mern}
+            src={resumebuilder}
             alt="Project 1"
             className="project-img"
           />
         </div>
-        <h2 className="experience-sub-title project-title">MERN CRUD APP</h2>
+        <h2 className="experience-sub-title project-title">AI Resume Builder</h2>
         <div className="btn-container">
-         <a href='https://github.com/amanvermao/crudmernapp' target='_blank'>
-         <button className="btn btn-color-2 project-btn">
+          <a href="https://github.com/amanvermao/ai-resume-builder" target='_blank'>
+          <button
+            className="btn btn-color-2 project-btn"
+          >
             Github
           </button>
-         </a>
-          <a href="https://crudmernapp-frontend.onrender.com/" target='_blank'>
+          </a>
+          <a href="https://ai-resume-builder-puce-tau.vercel.app/" target='_blank'>
           <button
             className="btn btn-color-2 project-btn"
           >
@@ -87,25 +91,22 @@ const Projects = () => {
       </div>
     </div>
     <div className="about-containers">
-      <div className="details-container color-container">
+    <div className="details-container color-container">
         <div className="article-container">
           <img
-            src={addtocart}
+            src={mern}
             alt="Project 1"
             className="project-img"
           />
         </div>
-        <h2 className="experience-sub-title project-title">Add To Cart</h2>
+        <h2 className="experience-sub-title project-title">MERN CRUD APP</h2>
         <div className="btn-container">
-          <a href="https://github.com/amanvermao/Add_to_Cart_Project" target='_blank'>
-          <button
-            className="btn btn-color-2 project-btn"
-            
-          >
+         <a href='https://github.com/amanvermao/crudmernapp' target='_blank'>
+         <button className="btn btn-color-2 project-btn">
             Github
           </button>
-          </a>
-          <a href="https://addtocartreactproject.netlify.app/" target='_blank'>
+         </a>
+          <a href="https://crudmernapp-frontend.onrender.com/" target='_blank'>
           <button
             className="btn btn-color-2 project-btn"
           >
@@ -229,30 +230,33 @@ const Projects = () => {
       <div className="details-container color-container">
         <div className="article-container">
           <img
-            src={article}
-            alt="Project 3"
+            src={addtocart}
+            alt="Project 1"
             className="project-img"
           />
         </div>
-        <h2 className="experience-sub-title project-title">Article Posting Website UI/UX</h2>
+        <h2 className="experience-sub-title project-title">Add To Cart</h2>
         <div className="btn-container">
-          <a href="https://github.com/amanvermao/Article_website-_uI_with_authorization" target='_blank'>
+          <a href="https://github.com/amanvermao/Add_to_Cart_Project" target='_blank'>
           <button
             className="btn btn-color-2 project-btn"
+            
           >
             Github
           </button>
           </a>
-         <a href="https://www.linkedin.com/in/aman-verma-243530220/recent-activity/all/" target='_blank'>
-         <button
+          <a href="https://addtocartreactproject.netlify.app/" target='_blank'>
+          <button
             className="btn btn-color-2 project-btn"
           >
             Live Demo
           </button>
-         </a>
+          </a>
         </div>
       </div>
+      
     </div>
+
       </div>
       <a href="#contact">
       <img
