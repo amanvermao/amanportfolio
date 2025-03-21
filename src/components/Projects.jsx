@@ -1,12 +1,11 @@
 import React from 'react'
 import mern from '../assets/mern.webp'
 import skin from '../assets/skin2.webp'
-import dento from '../assets/dento.webp'
+import chatapp from '../assets/chat-app.webp'
 import arrow from '../assets/arrow.png'
 import passgen from '../assets/passgen.webp'
 import todolist from '../assets/todolist.webp'
 import addtocart from '../assets/addtocart.webp'
-import article from '../assets/article.webp'
 import crypto from '../assets/crypto.webp'
 import gym from '../assets/gym.webp'
 import resumebuilder from '../assets/resumebuilder.webp'
@@ -73,20 +72,25 @@ const Projects = () => {
       <div className="details-container color-container">
         <div className="article-container">
           <img
-            src={dento}
-            alt="Project 3"
+            src={chatapp}
+            alt="Project 1"
             className="project-img"
           />
         </div>
-        <h2 className="experience-sub-title project-title">Dent-o-Heal</h2>
+        <h2 className="experience-sub-title project-title">MERN Chat App</h2>
         <div className="btn-container">
-         <a href="https://drsukhman.in/" target='_blank'>
-         <button
+         <a href='https://github.com/amanvermao/mern-ChatApp' target='_blank'>
+         <button className="btn btn-color-2 project-btn">
+            Github
+          </button>
+         </a>
+          <a href="https://mern-chatapp-w7x4.onrender.com/" target='_blank'>
+          <button
             className="btn btn-color-2 project-btn"
           >
             Live Demo
           </button>
-         </a>
+          </a>
         </div>
       </div>
     </div>
