@@ -24,7 +24,7 @@ const About = () => {
             <div className="details-container">
               <img src={experienceIcon} alt="Experience icon" className="icon" />
               <h3>Experience</h3>
-              <p>1+ years <br />Frontend Development</p>
+              <p>3+ years <br />Full Stack Developer</p>
             </div>
             <div className="details-container">
               <img src={educationIcon} alt="Education icon" className="icon" />

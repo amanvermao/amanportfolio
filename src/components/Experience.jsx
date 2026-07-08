@@ -34,6 +34,16 @@ const Experience = () => {
       
       const experienceData = [
         {
+          title: "Frontend Developer Intern",
+          location: "Fabulous Media Pvt Ltd, Gurugram",
+          duration: "September 2024 - December 2024",
+          details: [
+            "Developed responsive websites using modern frontend technologies and frameworks.",
+            "Collaborated with teams to deliver high-quality client projects.",
+            "Contributed to web projects for IPL Tech and Mahindra Tractors.",
+          ],
+        },
+        {
           title: "Freelance Front-end Developer",
           location: "Sitesocials",
           duration: "February 2024 - June 2024",
@@ -127,6 +137,7 @@ const Experience = () => {
                     <span className="CV-timeline-heading-title">{job.title} </span>
                     &#8211;
                     <span className="CV-timeline-heading-location"> {job.location}</span>
+                    <br></br>
                     <small className="CV-timeline-heading-duration">{job.duration}</small>
                   </h3>
                   <ul className="CV-timeline-details">
@@ -145,6 +156,7 @@ const Experience = () => {
                     <span className="CV-timeline-heading-title">{job.title}</span>
                     &#8211;
                     <span className="CV-timeline-heading-location"> {job.location}</span>
+                    <br></br>
                     <small className="CV-timeline-heading-duration">{job.duration}</small>
                   </h3>
                   <ul className="CV-timeline-details">
