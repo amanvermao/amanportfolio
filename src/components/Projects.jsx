@@ -26,66 +26,135 @@ const Projects = () => {
       <div class="experience-details-container">
 
        <div className="about-containers">
-      <div className="details-container color-container">
-        <div className="article-container">
-          <img
-            src={sproutmedia}
-            alt="Project 1"
-            className="project-img"
-          />
-        </div>
-        <h2 className="experience-sub-title project-title">Sproutt Media</h2>
-        <div className="btn-container">
-          <a href="https://sprouttmedia.com/" target='_blank'>
-          <button
-            className="btn btn-color-2 project-btn"
-          >
-            Live Demo
-          </button>
-          </a>
-        </div>
-      </div>
+      <div className="details-container color-container project-card">
+  <div className="article-container">
+    <img
+      src={sproutmedia}
+      alt="Sproutt Media"
+      className="project-img"
+    />
 
-      <div className="details-container color-container">
-        <div className="article-container">
-          <img
-            src={luli}
-            alt="Project 2"
-            className="project-img"
-          />
-        </div>
-        <h2 className="experience-sub-title project-title">Luli Jewelry</h2>
-        <div className="btn-container">
-          <a href="https://lulijewelry.com/" target='_blank'>
-          <button
-            className="btn btn-color-2 project-btn"
-          >
-            Live Demo
-          </button>
-          </a>
-        </div>
-      </div>
+    <div className="project-overlay">
+      <div className="overlay-content">
+        <h3>Sproutt Media</h3>
 
-      <div className="details-container color-container">
-        <div className="article-container">
-          <img
-            src={cleaning}
-            alt="Project 1"
-            className="project-img"
-          />
-        </div>
-        <h2 className="experience-sub-title project-title">Cleaning Company</h2>
-        <div className="btn-container">
-          
-          <a href="https://negev-nikionot-website.vercel.app/" target='_blank'>
-          <button
-            className="btn btn-color-2 project-btn"
-          >
-            Live Demo
-          </button>
-          </a>
+        <p>
+          Designed and developed a modern company website using Framer with a
+          fully responsive layout and CMS integration.
+        </p>
+
+        <div className="tech-stack">
+          <span>Framer</span>
+          <span>Responsive Design</span>
+          <span>CMS</span>
         </div>
       </div>
+    </div>
+  </div>
+
+  <h2 className="experience-sub-title project-title">
+    Sproutt Media
+  </h2>
+
+  <div className="btn-container">
+    <a href="https://sprouttmedia.com/" target="_blank">
+      <button className="btn btn-color-2 project-btn">
+        Live Demo
+      </button>
+    </a>
+  </div>
+</div>
+
+     <div className="details-container color-container project-card">
+  <div className="article-container">
+    <img
+      src={luli}
+      alt="Project 2"
+      className="project-img"
+    />
+
+    <div className="project-overlay">
+      <div className="overlay-content">
+        <h3>Luli Jewelry</h3>
+
+        <p>
+          A complete full-stack luxury jewelry eCommerce website with a powerful
+          admin dashboard, product management, inventory control, secure
+          checkout, order tracking, user authentication, and all the essential
+          features required for a modern online store.
+        </p>
+
+        <div className="tech-stack">
+          <span>Next.js</span>
+          <span>Tailwind CSS</span>
+          <span>Python</span>
+          <span>PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 className="experience-sub-title project-title">
+    Luli Jewelry
+  </h2>
+
+  <div className="btn-container">
+    <a
+      href="https://lulijewelry.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button className="btn btn-color-2 project-btn">
+        Live Demo
+      </button>
+    </a>
+  </div>
+</div>
+
+     <div className="details-container color-container project-card">
+  <div className="article-container">
+    <img
+      src={cleaning}
+      alt="Cleaning Company"
+      className="project-img"
+    />
+
+    <div className="project-overlay">
+      <div className="overlay-content">
+        <h3>Cleaning Company</h3>
+
+        <p>
+          A modern website developed for an Israel-based cleaning services
+          company. Built as a full-stack MERN application with a responsive UI,
+          service management, contact forms, and scalable architecture.
+        </p>
+
+        <div className="tech-stack">
+          <span>MongoDB</span>
+          <span>Express.js</span>
+          <span>React</span>
+          <span>Node.js</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 className="experience-sub-title project-title">
+    Cleaning Company
+  </h2>
+
+  <div className="btn-container">
+    <a
+      href="https://negev-nikionot-website.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button className="btn btn-color-2 project-btn">
+        Live Demo
+      </button>
+    </a>
+  </div>
+</div>
       
     </div>
       <div className="about-containers">
