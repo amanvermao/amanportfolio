@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 import './mediaqueries.css'
-import amanImg from "../assets/aman_img.webp";
+import amanImg from "../assets/Aman_img.jpeg";
 import resume from "../assets/resume-example.pdf";
 import linkedinIcon from "../assets/linkedin.png";
 import githubIcon from "../assets/github.png";

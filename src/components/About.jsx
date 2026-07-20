@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 import './mediaqueries.css'
-import aboutPic from "../assets/about-pic.webp";
+import aboutPic from "../assets/aman_img.webp";
 import experienceIcon from "../assets/experience.png";
 import educationIcon from "../assets/education.png";
 import arrowIcon from "../assets/arrow.png";

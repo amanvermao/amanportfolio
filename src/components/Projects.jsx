@@ -9,6 +9,9 @@ import addtocart from '../assets/addtocart.webp'
 import crypto from '../assets/crypto.webp'
 import gym from '../assets/gym.webp'
 import resumebuilder from '../assets/resumebuilder.webp'
+import sproutmedia from '../assets/sproutt-media.png'
+import luli from '../assets/luli-jwel.png'
+import cleaning from '../assets/cleaning-org.png'
 
 
 
@@ -21,6 +24,70 @@ const Projects = () => {
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
+
+       <div className="about-containers">
+      <div className="details-container color-container">
+        <div className="article-container">
+          <img
+            src={sproutmedia}
+            alt="Project 1"
+            className="project-img"
+          />
+        </div>
+        <h2 className="experience-sub-title project-title">Sproutt Media</h2>
+        <div className="btn-container">
+          <a href="https://sprouttmedia.com/" target='_blank'>
+          <button
+            className="btn btn-color-2 project-btn"
+          >
+            Live Demo
+          </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="details-container color-container">
+        <div className="article-container">
+          <img
+            src={luli}
+            alt="Project 2"
+            className="project-img"
+          />
+        </div>
+        <h2 className="experience-sub-title project-title">Luli Jewelry</h2>
+        <div className="btn-container">
+          <a href="https://lulijewelry.com/" target='_blank'>
+          <button
+            className="btn btn-color-2 project-btn"
+          >
+            Live Demo
+          </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="details-container color-container">
+        <div className="article-container">
+          <img
+            src={cleaning}
+            alt="Project 1"
+            className="project-img"
+          />
+        </div>
+        <h2 className="experience-sub-title project-title">Cleaning Company</h2>
+        <div className="btn-container">
+          
+          <a href="https://negev-nikionot-website.vercel.app/" target='_blank'>
+          <button
+            className="btn btn-color-2 project-btn"
+          >
+            Live Demo
+          </button>
+          </a>
+        </div>
+      </div>
+      
+    </div>
       <div className="about-containers">
       <div className="details-container color-container">
         <div className="article-container">
@@ -260,6 +327,10 @@ const Projects = () => {
       </div>
       
     </div>
+
+    {/* ----------- */}
+
+   
 
       </div>
       <a href="#contact">
